@@ -1,0 +1,127 @@
+/* for big tablets 1200px */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+  .footer {
+    margin-top: 100%;
+  }
+  .form {
+    height: 100px;
+  }
+  .phone-image {
+    width: 200px;
+  }
+}
+
+/* for small tabs to big tabs from 768 - 1023px */
+@media only screen and (max-width: 1023px) {
+  .long-copy {
+    width: 70%;
+  }
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  /* footer{
+        margin-top: 60%;
+    } */
+  .steps-box {
+    margin-top: 10px;
+  }
+  /* .steps-box:last-child {margin-top: 10px;}
+    .works-step{margin-bottom: 40px;}
+    .works-step:last-of-type{margin-bottom: 60px;}  */
+  .city-features {
+    font-size: 90%;
+  }
+  /* .contact-form{width: 50%;} */
+  .form {
+    height: 200px;
+  }
+  .btn-app img {
+    width: 150px;
+    height: 45px;
+  }
+}
+
+/* for small phones to small tabs from 481px - 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .main-nav {
+    display: none;
+  }
+  .works-step {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .steps-img {
+    text-align: center;
+  }
+  .phone-image {
+    width: 100px;
+  }
+  .btns {
+    display: block;
+    text-align: center;
+  }
+  .btn-app {
+    position: relative;
+    right: 400px;
+    /* right: 100%; */
+    /* text-align: center; */
+    top: 180px;
+  }
+  .btn-app img {
+    width: 150px;
+    height: 45px;
+  }
+  .form .span_1_of_3 {
+    margin: 0;
+  }
+  .form {
+    height: 540px;
+  }
+  .how-it-works {
+    display: block;
+  }
+}
+
+/* for small phones from 0-480px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .footer {
+    margin-top: 5px;
+  }
+  .hero-text-box .btn-ghost {
+    margin-top: 10px;
+  }
+  .form {
+    height: 600px;
+  }
+}
